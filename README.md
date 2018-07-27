@@ -1,7 +1,12 @@
+
+<h1>Developer tutorial for creating a Hyperledger Composer solution</h1><hr>
+
 # myfirstHyperledgerApp
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-<a href="https://hyperledger.github.io/composer/latest/installing/installing-prereqs.html">Install Pre-reqs</a>
+<a href="https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html">Developer tutorial for creating a Hyperledger Composer solution</a>
+
+Pre-requisites
 
 yo hyperledger-composer:businessnetwork
 
@@ -26,7 +31,8 @@ The easiest way to get started is to use the Yeoman generator to create a skelet
 1.	Create a skeleton business network using Yeoman. This command will require a business network name, description, author name, author email address, license selection and namespace.
 Copy
   
-yo hyperledger-composer:businessnetwork
+<b>yo hyperledger-composer:businessnetwork</b>
+
 2.	Enter tutorial-network for the network name, and desired information for description, author name, and author email.
 3.	Select Apache-2.0 as the license.
 4.	Select org.example.mynetwork as the namespace.
