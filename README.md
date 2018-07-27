@@ -33,11 +33,11 @@ transaction Trade {
     --> Trader newOwner
 }
 ~~~~  
-
+</b>
 Save your changes to org.example.mynetwork.cto.
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-<p><h2>Adding JavaScript transaction logic</h2>
+<h2>Adding JavaScript transaction logic</h2>
 
 Open the logic.js file
 
@@ -55,8 +55,9 @@ async function tradeCommodity(trade) {
 }
 ~~~~
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
 <h2>Adding access control</h2>
-<hr>
+
 In the file permissions.jcl
 ~~~~
 
