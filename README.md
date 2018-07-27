@@ -6,6 +6,14 @@
 <a href="https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html">Developer tutorial for creating a Hyperledger Composer solution</a>
 
 Pre-requisites
+
+# Step One: Creating a business network structure
+# Step Two: Defining a business network
+# Step Three: Generate a business network archive
+# Step Four: Deploying the business network
+# Step Five: Generating a REST server
+# Step Six: Generating an application
+
 <p>
 <b>yo hyperledger-composer:businessnetwork</b> 
 <p>
@@ -83,7 +91,7 @@ rule SystemACL {
 ~~~~
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-<h2>Step Three: Generate a business network archive file.
+## Step Three: Generate a business network archive file.
 </h2>
 <ol>
 <li>Using the command line, navigate to the tutorial-network directory.
@@ -129,7 +137,7 @@ Copy
 
 <p>
 
-<h2>Step Five: Generating a REST server</h2>
+## Step Five: Generating a REST server
 Hyperledger Composer can generate a bespoke REST API based on a business network. For developing a web application, the REST API provides a useful layer of language-neutral abstraction.
 
 To create the REST API, navigate to the tutorial-network directory and run the following command:
