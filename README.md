@@ -196,7 +196,7 @@ rule SystemACL {
 Step Three: Generate a business network archive
 Now that the business network has been defined, it must be packaged into a deployable business network archive (.bna) file.
 1.	Using the command line, navigate to the tutorial-network directory.
-2.	From the tutorial-network directory, run the following command:
+2.	From the tutorial-network directory, run the following command: 
 Copy
 composer archive create -t dir -n .
 After the command has run, a business network archive file called tutorial-network@0.0.1.bna has been created in the tutorial-network directory.
