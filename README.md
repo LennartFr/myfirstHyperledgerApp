@@ -33,11 +33,27 @@ transaction Trade {
     --> Commodity commodity
     --> Trader newOwner
 }
-  
 ~~~~  
 
+Save your changes to org.example.mynetwork.cto.
 
+<p><h2>Adding JavaScript transaction logic</h2>
 
+Open the logic.js file
+
+And replace the code with this one and save.
+~~~~
+/**
+ * Track the trade of a commodity from one trader to another
+ * @param {org.example.mynetwork.Trade} trade - the trade to be processed
+ * @transaction
+ */
+async function tradeCommodity(trade) {
+    trade.commodity.owner = trade.newOwner;
+    let assetRegistry = await getAssetRegistry('org.example.mynetwork.Commodity');
+    await assetRegistry.update(trade.commodity);
+}
+~~~~
 <a href="https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html">Installing the development environment</a>
 
 Developer tutorial for creating a Hyperledger Composer solution
