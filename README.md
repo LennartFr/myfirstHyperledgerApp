@@ -150,6 +150,6 @@ composer-rest-server
 
 The generated API is connected to the deployed blockchain and business network.
 
-
+<img src="https://github.com/LennartFr/myfirstHyperledgerApp/blob/master/Screen%20Shot%202018-07-27%20at%2015.32.39.png">
 
 
