@@ -8,12 +8,11 @@
 Pre-requisites
 
 # Step One: Creating a business network structure
-# Step Two: Defining a business network
-
-
 <p>
 <b>yo hyperledger-composer:businessnetwork</b> 
 <p>
+  
+# Step 2: Defining a business network  
 Open org.example.mynetwork.cto model file.
   
 ~~~~
