@@ -41,7 +41,7 @@ transaction Trade {
 Save your changes to org.example.mynetwork.cto.
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-<h2>Adding JavaScript transaction logic</h2>
+### Adding JavaScript transaction logic
 
 Open the logic.js file
 
@@ -60,7 +60,7 @@ async function tradeCommodity(trade) {
 ~~~~
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-<h2>Adding access control</h2>
+### Adding access control
 
 In the file permissions.jcl
 ~~~~
@@ -99,7 +99,7 @@ rule SystemACL {
 After the command has run, a business network archive file called tutorial-network@0.0.1.bna has been created in the tutorial-network directory.
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
-<h1>Deplying the Business Network</h1>
+<h1>Deploy the Business Network</h1>
 
 To install the business network, from the tutorial-network directory, run the following command:
 
