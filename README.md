@@ -7,7 +7,7 @@
 
 Pre-requisites
 <p>
-<b>yo hyperledger-composer:businessnetwork<b> 
+<b>yo hyperledger-composer:businessnetwork</b> 
 <p>
 Open org.example.mynetwork.cto model file.
   
