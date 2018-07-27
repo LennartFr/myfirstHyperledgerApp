@@ -9,10 +9,7 @@ Pre-requisites
 
 # Step One: Creating a business network structure
 # Step Two: Defining a business network
-# Step Three: Generate a business network archive
-# Step Four: Deploying the business network
-# Step Five: Generating a REST server
-# Step Six: Generating an application
+
 
 <p>
 <b>yo hyperledger-composer:businessnetwork</b> 
