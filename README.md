@@ -7,8 +7,33 @@
 <a href="https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html">Developer tutorial for creating a Hyperledger Composer solution</a>
 
 Pre-requisites
-
-yo hyperledger-composer:businessnetwork
+<p>
+<b>yo hyperledger-composer:businessnetwork<b> 
+<p>
+Open org.example.mynetwork.cto model file.
+  
+  /**
+ * My commodity trading network
+ */
+namespace org.example.mynetwork
+asset Commodity identified by tradingSymbol {
+    o String tradingSymbol
+    o String description
+    o String mainExchange
+    o Double quantity
+    --> Trader owner
+}
+participant Trader identified by tradeId {
+    o String tradeId
+    o String firstName
+    o String lastName
+}
+transaction Trade {
+    --> Commodity commodity
+    --> Trader newOwner
+}
+  
+  
 
 
 
