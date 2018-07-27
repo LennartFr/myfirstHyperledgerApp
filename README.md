@@ -128,5 +128,24 @@ Copy
 
 <p>
 
+<h2>Step Five: Generating a REST server</h2>
+Hyperledger Composer can generate a bespoke REST API based on a business network. For developing a web application, the REST API provides a useful layer of language-neutral abstraction.
+
+To create the REST API, navigate to the tutorial-network directory and run the following command:
+<p><b>
+composer-rest-server
+  </b>
+  <li>
+<ol>Enter admin@tutorial-network as the card name.
+
+<li>Select never use namespaces when asked whether to use namespaces in the generated API.
+<li>Select No when asked whether to secure the generated API.
+<li>Select Yes when asked whether to enable event publication.
+<li>Select No when asked whether to enable TLS security.
+</ol>
+
+The generated API is connected to the deployed blockchain and business network.
+
+
 
 
