@@ -52,6 +52,7 @@ async function tradeCommodity(trade) {
     let assetRegistry = await getAssetRegistry('org.example.mynetwork.Commodity');
     await assetRegistry.update(trade.commodity);
 }
+~~~~
 
 <h2>Adding access control</h2>
 <hr>
@@ -78,18 +79,20 @@ rule SystemACL {
 }
 
 ~~~~
+
 <h2>Step Three: Generate a business network archive
 </h2>
-
-1) Using the command line, navigate to the tutorial-network directory.
-<p>
-2) From the tutorial-network directory, run the following command:
-
+<ol>
+<li>Using the command line, navigate to the tutorial-network directory.
+<p><li>From the tutorial-network directory, run the following command:
+</ol>
+  
 <b>composer archive create -t dir -n . </b>
 
+After the command has run, a business network archive file called tutorial-network@0.0.1.bna has been created in the tutorial-network directory.
 
-
-<a href="https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html">Installing the development environment</a>
+<h1>
+<a href="https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html">Installing the development environment</a></a>
 
 Developer tutorial for creating a Hyperledger Composer solution
 <p>
