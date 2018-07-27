@@ -9,11 +9,11 @@ Pre-requisites
 
 # Step One: Creating a business network structure
 <p>
-<b>yo hyperledger-composer:businessnetwork</b> 
+yo hyperledger-composer:businessnetwork 
 <p>
   
 # Step 2: Defining a business network  
-Open org.example.mynetwork.cto model file.
+Open org.example.mynetwork.cto model file and replace with the following content.
   
 ~~~~
   /**
@@ -43,9 +43,8 @@ Save your changes to org.example.mynetwork.cto.
 
 ### Adding JavaScript transaction logic
 
-Open the logic.js file
+Open the logic.js file and replace with the following content
 
-And replace the code with this one and save.
 ~~~~
 /**
  * Track the trade of a commodity from one trader to another
@@ -62,7 +61,7 @@ async function tradeCommodity(trade) {
 
 ### Adding access control
 
-In the file permissions.jcl
+Open the file permissions.jcl and replace with the following content:
 ~~~~
 
 /**
