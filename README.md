@@ -12,6 +12,7 @@ Pre-requisites
 <p>
 Open org.example.mynetwork.cto model file.
   
+~~~~
   /**
  * My commodity trading network
  */
@@ -33,7 +34,7 @@ transaction Trade {
     --> Trader newOwner
 }
   
-  
+~~~~  
 
 
 
