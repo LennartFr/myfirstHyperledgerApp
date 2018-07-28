@@ -7,7 +7,42 @@
 
 Pre-requisites
 
-# Step One: Creating a business network structure
+# Step One: Install the CLI Tools:
+Essential CLI tools:
+
+<ol>
+<li> npm install -g composer-cli<br>
+Utility for running a REST Server on your machine to expose your business networks as RESTful APIs:
+
+<li>npm install -g composer-rest-server<br>
+Useful utility for generating application assets:
+
+<li>npm install -g generator-hyperledger-composer<br>
+
+Yeoman is a tool for generating applications, which utilises generator-hyperledger-composer:
+<li> npm install -g yo
+</ol>
+
+# Step Two: Install Hyperledger Fabric
+
+~~~~
+mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
+
+curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
+tar -xvf fabric-dev-servers.tar.gz
+
+cd ~/fabric-dev-servers
+./downloadFabric.sh
+
+~~~~
+
+## Starting and stopping Hyperledger Fabric
+
+cd ~/fabric-dev-servers
+    ./startFabric.sh
+    ./createPeerAdminCard.sh
+
+# Step Three: Creating a business network structure
 <p>
 yo hyperledger-composer:businessnetwork 
 <p>
