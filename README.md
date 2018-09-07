@@ -42,6 +42,12 @@ Yeoman is a tool for generating applications, which utilises generator-hyperledg
 </ol>
 
 # Step Two: Install Hyperledger Fabric
+
+After installing the prerequisites and development environment, make sure your docker is running and then run
+
+./startFabric.sh and ./createPeerAdminCard.sh
+
+
 # Step Two: Install Playground
 ~~~~
 Step 2: Install Playground
