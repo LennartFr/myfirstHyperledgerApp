@@ -52,6 +52,12 @@ After installing the prerequisites and development environment, make sure your d
 ~~~~
 Step 2: Install Playground
 ~~~~
+npm install -g composer-playground@0.19
+~~~~
+
+# Step 3: Set up your IDE
+
+# Step 4: Install Hyperledger
 
 ~~~~
 mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
@@ -60,6 +66,7 @@ curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/pack
 tar -xvf fabric-dev-servers.tar.gz
 
 cd ~/fabric-dev-servers
+export FABRIC_VERSION=hlfv11
 ./downloadFabric.sh
 
 ~~~~
