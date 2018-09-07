@@ -13,10 +13,10 @@ https://medium.com/coinmonks/building-a-blockchain-application-using-hyperledger
 
 https://medium.freecodecamp.org/ultimate-end-to-end-tutorial-to-create-an-application-on-blockchain-using-hyperledger-3a83a80cbc71
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 
-
-# Install pre-requisites for Ubunto or Mac OS
+# Install pre-requisites for Ubuntu or Mac OS
 
 https://hyperledger.github.io/composer/v0.19/installing/installing-prereqs.html#macos
 
@@ -40,6 +40,27 @@ Useful utility for generating application assets:
 Yeoman is a tool for generating applications, which utilises generator-hyperledger-composer:
 <li> npm install -g yo
 </ol>
+
+# Step Two: Install Playground
+
+npm install -g composer-playground@0.19
+
+# Step 3: Set up your IDE
+
+# Step 4: Install Hyperledger Fabric
+
+~~~~
+mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
+
+curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
+tar -xvf fabric-dev-servers.tar.gz
+~~~~
+
+~~~~
+cd ~/fabric-dev-servers
+export FABRIC_VERSION=hlfv11
+./downloadFabric.sh
+~~~~
 
 # Step Two: Install Hyperledger Fabric
 
