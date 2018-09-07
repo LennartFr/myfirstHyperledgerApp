@@ -18,19 +18,23 @@ https://medium.freecodecamp.org/ultimate-end-to-end-tutorial-to-create-an-applic
 
 # Pre-requisites
 
+
 nvm use node  // very important, without this the code won't work!
 
 # Step One: Install the CLI Tools:
+
+https://hyperledger.github.io/composer/v0.19/installing/development-tools.html
+
 Essential CLI tools:
 
 <ol>
-<li> npm install -g composer-cli<br>
+<li> npm install -g composer-cli@0.19 <br>
 Utility for running a REST Server on your machine to expose your business networks as RESTful APIs:
 
-<li>npm install -g composer-rest-server<br>
+<li>npm install -g composer-rest-server@0.19<br>
 Useful utility for generating application assets:
 
-<li>npm install -g generator-hyperledger-composer<br>
+<li>npm install -g generator-hyperledger-composer@0.19<br>
 
 Yeoman is a tool for generating applications, which utilises generator-hyperledger-composer:
 <li> npm install -g yo
