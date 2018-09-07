@@ -41,6 +41,13 @@ Yeoman is a tool for generating applications, which utilises generator-hyperledg
 <li> npm install -g yo
 </ol>
 
+# Alternative mass install
+
+npm install -g composer-cli@0.19 
+npm install -g composer-rest-server@0.19
+npm install -g generator-hyperledger-composer@0.19
+npm install -g yo
+
 # Step Two: Install Playground
 
 npm install -g composer-playground@0.19
