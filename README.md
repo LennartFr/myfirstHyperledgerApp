@@ -60,7 +60,10 @@ cd ~/fabric-dev-servers
 yo hyperledger-composer:businessnetwork 
 <p>
   
-# Step 2: Defining a business network  
+# Step 2: Defining a business network
+
+https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
+
 Open org.example.mynetwork.cto model file and replace with the following content.
   
 ~~~~
