@@ -41,6 +41,10 @@ Yeoman is a tool for generating applications, which utilises generator-hyperledg
 </ol>
 
 # Step Two: Install Hyperledger Fabric
+# Step Two: Install Playground
+~~~~
+Step 2: Install Playground
+~~~~
 
 ~~~~
 mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
