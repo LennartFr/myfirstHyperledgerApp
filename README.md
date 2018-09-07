@@ -5,7 +5,18 @@
 
 <a href="https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html">Developer tutorial for creating a Hyperledger Composer solution</a>
 
-Pre-requisites
+# Sources
+
+https://medium.com/coinmonks/fixing-transaction-issue-in-angular-for-hyperledger-fabric-blockchain-application-fe7e28a7bb6e
+
+https://medium.com/coinmonks/building-a-blockchain-application-using-hyperledger-fabric-with-angular-frontend-part-2-22ef7c77f53
+
+https://medium.freecodecamp.org/ultimate-end-to-end-tutorial-to-create-an-application-on-blockchain-using-hyperledger-3a83a80cbc71
+
+
+
+
+# Pre-requisites
 
 nvm use node  // very important, without this the code won't work!
 
