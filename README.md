@@ -103,8 +103,17 @@ cd ~/fabric-dev-servers
 
 # Step Three: Creating a business network structure
 <p>
+https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
+
 yo hyperledger-composer:businessnetwork 
-<p>
+<p>Enter tutorial-network for the network name, and desired information for description, author name, and author email.
+<p>Select Apache-2.0 as the license.
+Select org.example.mynetwork as the namespace.
+<p>Select No when asked whether to generate an empty network or not.
+    
+    
+    
+    
   
 # Step 2: Defining a business network
 
