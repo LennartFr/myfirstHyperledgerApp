@@ -48,16 +48,15 @@ After installing the prerequisites and development environment, make sure your d
 ./startFabric.sh and ./createPeerAdminCard.sh
 
 
-# Step Two: Install Playground
-~~~~
-Step 2: Install Playground
+# Step Three: Install Playground
+
 ~~~~
 npm install -g composer-playground@0.19
 ~~~~
 
 # Step 3: Set up your IDE
 
-# Step 4: Install Hyperledger
+# Step 4: Install Hyperledger Fabric
 
 ~~~~
 mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
