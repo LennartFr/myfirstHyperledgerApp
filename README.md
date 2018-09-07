@@ -7,6 +7,8 @@
 
 Pre-requisites
 
+nvm use node  // very important, without this the code won't work!
+
 # Step One: Install the CLI Tools:
 Essential CLI tools:
 
