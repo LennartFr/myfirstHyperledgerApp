@@ -16,10 +16,11 @@ https://medium.freecodecamp.org/ultimate-end-to-end-tutorial-to-create-an-applic
 
 
 
-# Pre-requisites
+# Install pre-requisites for Ubunto or Mac OS
 
+https://hyperledger.github.io/composer/v0.19/installing/installing-prereqs.html#macos
 
-nvm use node  // very important, without this the code won't work!
+nvm use node  // Please note, very important, do this, without this the code won't work!
 
 # Step One: Install the CLI Tools:
 
