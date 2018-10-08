@@ -121,9 +121,6 @@ yo hyperledger-composer:businessnetwork
 Select org.example.mynetwork as the namespace.
 <p>Select No when asked whether to generate an empty network or not.
     
-    
-    
-    
   
 # Step 2: Defining a business network
 
@@ -216,35 +213,31 @@ After the command has run, a business network archive file called tutorial-netwo
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 <h1>Deploy the Business Network</h1>
 
+https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
+
 To install the business network, from the tutorial-network directory, run the following command:
 
-<p>
-  <b>composer network install --card PeerAdmin@hlfv1 --archiveFile tutorial-network@0.0.1.bna</b>
-<p>
-The composer network install command requires a PeerAdmin business network card (in this case one has been created and imported in advance), and the the file path of the .bna which defines the business network.
 
-<p>
-  <b>To start the business network, run the following command</b>
-<p>
-Copy
-composer network start --networkName tutorial-network --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
-The composer network start command requires a business network card, as well as the name of the admin identity for the business network, the name and version of the business network and the name of the file to be created ready to import as a business network card.
-
-<p>
-<b>To import the network administrator identity as a usable business network card, run the following command:</b>
-<p>
-
-<p>
-Copy
-<b>composer card import --file networkadmin.card</b>
-<p>
-The composer card import command requires the filename specified in composer network start to create a card.
 
 To check that the business network has been deployed successfully, run the following command to ping the network:
-
 <p>
-Copy
-<b>composer network ping --card admin@tutorial-network</b>
+
+~~~~
+
+composer network install --card PeerAdmin@hlfv1 --archiveFile tutorial-network@0.0.1.bna
+~~~~
+
+~~~~
+composer network start --networkName tutorial-network --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+~~~~
+
+~~~~
+composer card import --file networkadmin.card
+~~~~
+
+~~~~
+composer network ping --card admin@tutorial-network
+~~~~
 
 <p>
 
