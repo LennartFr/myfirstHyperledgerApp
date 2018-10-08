@@ -55,9 +55,9 @@ npm install -g yo
 
 npm install -g composer-playground@0.19
 
-# Step 3: Set up your IDE
+# Step Three: Set up your IDE
 
-# Step 4: Install Hyperledger Fabric
+# Step Four: Install Hyperledger Fabric
 
 ~~~~
 mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
